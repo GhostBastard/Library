@@ -5,12 +5,30 @@ namespace Library
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-            Console.WriteLine("1 - добавить книгу \n 2 - редактировать книгу \n 3 - добавить отдел \n 4 - редактировать отдел \n 5 - добавить заведующего \n 6 - поменять заведующего");
-            int choise;
+            Department dep = new Department();
+            Console.WriteLine("1 - добавить книгу \n2 - редактировать книгу \n3 - добавить отдел \n4 - редактировать отдел \n5 - добавить заведующего \n6 - поменять заведующего");
+            short choise;
             choise = Convert.ToInt16(Console.Read());
-
+            switch (choise)
+            {
+                case 1:
+                    dep.AddBook();
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+            }
+                
 
 
 
