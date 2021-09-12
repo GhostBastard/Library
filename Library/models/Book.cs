@@ -21,9 +21,6 @@ namespace Library.models
             book[2] = author;
             book[3] = amountOfPages;
         }
-
-
-
         public void TakeBook(out object[] arr)
         {
             object[] arr2 = new object[4];
